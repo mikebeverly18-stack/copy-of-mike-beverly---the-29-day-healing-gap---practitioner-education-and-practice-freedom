@@ -68,7 +68,7 @@ export default function HealingGap() {
 
               <div className="pt-4 flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
+                  href="/manus-storage/redox_signalling_professional(1)_8896aa96.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 rounded text-white font-semibold text-sm transition-opacity hover:opacity-90"
@@ -118,7 +118,7 @@ export default function HealingGap() {
                   A three-page guide covering the NRF2 mechanism, an honest evidence appraisal, and a plain-language claims framework.
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
+                  href="/manus-storage/redox_signalling_professional(1)_8896aa96.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-semibold"

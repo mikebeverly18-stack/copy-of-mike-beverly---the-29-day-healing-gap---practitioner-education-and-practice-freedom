@@ -37,7 +37,7 @@ export default function ForPractitioners() {
               style={{ backgroundColor: "oklch(0.55 0.12 185)" }}>
               <Calendar size={16} /> Book a Private Briefing
             </a>
-            <a href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+            <a href="/manus-storage/redox_signalling_professional(1)_8896aa96.pdf" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded font-semibold text-sm border transition-all hover:bg-white/10"
               style={{ borderColor: "oklch(1 0 0 / 30%)", color: "white" }}>
               <Download size={16} /> Download the Practitioner Guide First

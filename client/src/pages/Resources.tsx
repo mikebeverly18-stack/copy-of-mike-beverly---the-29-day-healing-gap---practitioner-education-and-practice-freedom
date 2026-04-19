@@ -15,7 +15,7 @@ const resources = [
     subtitle: "A Practitioner's Evidence Guide",
     description: "Three pages covering the NRF2 mechanism, an honest evidence appraisal using a three-tier framework, and a plain-language claims guide for practitioner-patient conversations. Written specifically for integrative clinicians.",
     cta: "Download the Guide (free)",
-    href: "https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing",
+    href: "/manus-storage/redox_signalling_professional(1)_8896aa96.pdf",
     tag: "PDF · 3 pages · Free",
   },
   {
