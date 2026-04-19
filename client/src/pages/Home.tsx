@@ -326,7 +326,7 @@ export default function Home() {
       {/* ── BOTTOM CTA ── */}
       <section className="py-20" style={{ backgroundColor: "oklch(0.14 0.04 240)" }}>
         <div className="container">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="text-center">
             <p className="section-label mb-4">Ready to Close the Gap?</p>
             <div className="teal-rule mx-auto mb-6" />
             <h2
@@ -336,7 +336,7 @@ export default function Home() {
               Ready to close the gap?
             </h2>
             <p className="text-white/60 text-base mb-12">Two ways to start. No pressure on either.</p>
-            <div className="grid md:grid-cols-2 gap-6 text-left">
+            <div className="grid md:grid-cols-2 gap-8 text-left mt-12">
               <div className="rounded-lg p-6" style={{ backgroundColor: "oklch(0.22 0.04 240)", border: "1px solid oklch(1 0 0 / 10%)" }}>
                 <p className="section-label mb-3">For Practitioners Who Want the Science</p>
                 <p className="text-white/70 text-sm leading-relaxed mb-5">
