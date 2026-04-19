@@ -1,0 +1,42 @@
+import { Toaster } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import NotFound from "@/pages/NotFound";
+import { Route, Switch } from "wouter";
+import ErrorBoundary from "./components/ErrorBoundary";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import Home from "./pages/Home";
+import HealingGap from "./pages/HealingGap";
+import ForPractitioners from "./pages/ForPractitioners";
+import Resources from "./pages/Resources";
+import About from "./pages/About";
+import BookBriefing from "./pages/BookBriefing";
+
+function Router() {
+  return (
+    <Switch>
+      <Route path="/" component={Home} />
+      <Route path="/healing-gap" component={HealingGap} />
+      <Route path="/for-practitioners" component={ForPractitioners} />
+      <Route path="/resources" component={Resources} />
+      <Route path="/about" component={About} />
+      <Route path="/book-briefing" component={BookBriefing} />
+      <Route path="/404" component={NotFound} />
+      <Route component={NotFound} />
+    </Switch>
+  );
+}
+
+function App() {
+  return (
+    <ErrorBoundary>
+      <ThemeProvider defaultTheme="light">
+        <TooltipProvider>
+          <Toaster />
+          <Router />
+        </TooltipProvider>
+      </ThemeProvider>
+    </ErrorBoundary>
+  );
+}
+
+export default App;
