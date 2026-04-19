@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 import { ArrowRight, Download, Calculator, Calendar } from "lucide-react";
 
 const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/L4bpoLh2LFma8n5yzFsaLc/hero-bg-bF3opehcWTcKMHZWVMeBPB.webp";
-const MIKE_PHOTO = "/manus-storage/mike-beverly-headshot_f4a52b12.webp";
+const MIKE_PHOTO = "/manus-storage/mike-beverly-headshot_88ed3f68.jpg";
 
 function useFadeUp() {
   const ref = useRef<HTMLDivElement>(null);
