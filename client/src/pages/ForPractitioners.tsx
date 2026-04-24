@@ -25,10 +25,10 @@ export default function ForPractitioners() {
         <div className="container relative z-10">
           <p className="section-label mb-4">For Integrative Practitioners</p>
           <div className="teal-rule mb-6" />
-          <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-bold max-w-3xl leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
-            Who This Is For
+          <h1 className="text-white text-4xl md:text-5xl font-bold max-w-2xl leading-tight" style={{ fontFamily: "'Playfair Display', serif" }}>
+            A conversation worth having.
           </h1>
-          <p className="text-white/70 text-xl mt-6 max-w-xl leading-relaxed">
+          <p className="text-white/60 text-lg mt-4 max-w-xl">
             The Private Practitioner Briefing is 30 minutes. No slides. No pitch. Just a direct conversation about whether this fits your practice.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -37,7 +37,7 @@ export default function ForPractitioners() {
               style={{ backgroundColor: "oklch(0.55 0.12 185)" }}>
               <Calendar size={16} /> Book a Private Briefing
             </a>
-            <a href="/manus-storage/redox_signalling_professional(1)_8896aa96.pdf" target="_blank" rel="noopener noreferrer"
+            <a href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 rounded font-semibold text-sm border transition-all hover:bg-white/10"
               style={{ borderColor: "oklch(1 0 0 / 30%)", color: "white" }}>
               <Download size={16} /> Download the Practitioner Guide First
@@ -56,10 +56,10 @@ export default function ForPractitioners() {
               <h2 className="text-3xl font-bold mb-6" style={{ fontFamily: "'Playfair Display', serif", color: "oklch(0.18 0.04 240)" }}>
                 The Private Practitioner Briefing
               </h2>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              <p className="text-gray-600 text-base leading-relaxed mb-6">
                 This is not a sales call. It is a professional conversation between two people who take integrative care seriously. I will ask you about your practice, your patient population, and what you are trying to build. You will ask me whatever you need to ask.
               </p>
-              <p className="text-gray-600 text-lg leading-relaxed mb-8">
+              <p className="text-gray-600 text-base leading-relaxed mb-8">
                 At the end of 30 minutes, you will know whether this is a fit. If it is not, I will tell you. If it is, we will talk about next steps.
               </p>
               <div className="space-y-3">
@@ -71,7 +71,7 @@ export default function ForPractitioners() {
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <CheckCircle size={16} style={{ color: "oklch(0.55 0.12 185)", flexShrink: 0 }} />
-                    <span className="text-gray-700 text-base">{item}</span>
+                    <span className="text-gray-700 text-sm">{item}</span>
                   </div>
                 ))}
               </div>
@@ -129,10 +129,10 @@ export default function ForPractitioners() {
           <div className="grid md:grid-cols-2 gap-6">
             {objections.map((item, i) => (
               <div key={i} className="rounded-lg p-6" style={{ backgroundColor: "oklch(0.22 0.04 240)" }}>
-                <p className="text-white font-semibold text-lg mb-3" style={{ fontFamily: "'Playfair Display', serif" }}>
+                <p className="text-white font-semibold text-base mb-3" style={{ fontFamily: "'Playfair Display', serif" }}>
                   "{item.q}"
                 </p>
-                <p className="text-white/65 text-base leading-relaxed">{item.a}</p>
+                <p className="text-white/65 text-sm leading-relaxed">{item.a}</p>
               </div>
             ))}
           </div>

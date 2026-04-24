@@ -10,7 +10,6 @@ import ForPractitioners from "./pages/ForPractitioners";
 import Resources from "./pages/Resources";
 import About from "./pages/About";
 import BookBriefing from "./pages/BookBriefing";
-import TheBook from "./pages/TheBook";
 
 function Router() {
   return (
@@ -21,7 +20,6 @@ function Router() {
       <Route path="/resources" component={Resources} />
       <Route path="/about" component={About} />
       <Route path="/book-briefing" component={BookBriefing} />
-      <Route path="/the-book" component={TheBook} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

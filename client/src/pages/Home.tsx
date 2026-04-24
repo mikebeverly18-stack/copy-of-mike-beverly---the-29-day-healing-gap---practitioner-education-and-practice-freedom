@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 import { ArrowRight, Download, Calculator, Calendar } from "lucide-react";
 
 const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/L4bpoLh2LFma8n5yzFsaLc/hero-bg-bF3opehcWTcKMHZWVMeBPB.webp";
-const MIKE_PHOTO = "/manus-storage/mike-beverly-headshot_88ed3f68.jpg";
+const MIKE_PHOTO = "/manus-storage/mike-beverly-headshot_f4a52b12.webp";
 
 function useFadeUp() {
   const ref = useRef<HTMLDivElement>(null);
@@ -120,7 +120,7 @@ export default function Home() {
             </ul>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="/manus-storage/redox_signalling_professional(1)_8896aa96.pdf"
+                href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-6 py-3 rounded text-white font-semibold text-sm transition-opacity hover:opacity-90"
@@ -169,7 +169,7 @@ export default function Home() {
             </div>
             <div className="mt-10">
               <a
-                href="/manus-storage/redox_signalling_professional(1)_8896aa96.pdf"
+                href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded text-white font-semibold text-sm transition-opacity hover:opacity-90"
@@ -249,7 +249,7 @@ export default function Home() {
                   I use a three-tier evidence framework so every practitioner I work with knows exactly what the science supports, what it suggests, and what remains unproven.
                 </p>
                 <a
-                  href="/manus-storage/redox_signalling_professional(1)_8896aa96.pdf"
+                  href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors"
@@ -326,7 +326,7 @@ export default function Home() {
       {/* ── BOTTOM CTA ── */}
       <section className="py-20" style={{ backgroundColor: "oklch(0.14 0.04 240)" }}>
         <div className="container">
-          <div className="text-center">
+          <div className="max-w-3xl mx-auto text-center">
             <p className="section-label mb-4">Ready to Close the Gap?</p>
             <div className="teal-rule mx-auto mb-6" />
             <h2
@@ -336,67 +336,35 @@ export default function Home() {
               Ready to close the gap?
             </h2>
             <p className="text-white/60 text-base mb-12">Two ways to start. No pressure on either.</p>
-            <div className="grid md:grid-cols-2 gap-8 text-left mt-12">
-              {/* Box 1 — Science */}
-              <div
-                className="rounded-xl p-10 flex flex-col justify-between"
-                style={{
-                  backgroundColor: "oklch(0.20 0.05 240)",
-                  border: "1px solid oklch(0.55 0.12 185 / 40%)",
-                  borderTop: "4px solid oklch(0.55 0.12 185)",
-                }}
-              >
-                <div>
-                  <p className="section-label mb-4">For Practitioners Who Want the Science</p>
-                  <h3
-                    className="text-white text-2xl font-bold mb-4 leading-snug"
-                    style={{ fontFamily: "'Playfair Display', serif" }}
-                  >
-                    Start with the evidence.
-                  </h3>
-                  <p className="text-white/70 text-lg leading-relaxed mb-8">
-                    The Practitioner Guide covers the NRF2 mechanism, the honest evidence picture, and a plain-language claims framework. It is free and written specifically for clinicians.
-                  </p>
-                </div>
+            <div className="grid md:grid-cols-2 gap-6 text-left">
+              <div className="rounded-lg p-6" style={{ backgroundColor: "oklch(0.22 0.04 240)", border: "1px solid oklch(1 0 0 / 10%)" }}>
+                <p className="section-label mb-3">For Practitioners Who Want the Science</p>
+                <p className="text-white/70 text-sm leading-relaxed mb-5">
+                  The Practitioner Guide covers the NRF2 mechanism, the honest evidence picture, and a plain-language claims framework. It is free and written specifically for clinicians.
+                </p>
                 <a
-                  href="/manus-storage/redox_signalling_professional(1)_8896aa96.pdf"
+                  href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded text-white font-semibold transition-opacity hover:opacity-90 self-start"
-                  style={{ backgroundColor: "oklch(0.55 0.12 185)", fontSize: "1rem" }}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded text-white text-sm font-semibold transition-opacity hover:opacity-90"
+                  style={{ backgroundColor: "oklch(0.55 0.12 185)" }}
                 >
-                  <Download size={16} /> Download the Practitioner Guide
+                  <Download size={14} /> Download the Practitioner Guide
                 </a>
               </div>
-              {/* Box 2 — Conversation */}
-              <div
-                className="rounded-xl p-10 flex flex-col justify-between"
-                style={{
-                  backgroundColor: "oklch(0.20 0.05 240)",
-                  border: "1px solid oklch(0.75 0.12 60 / 40%)",
-                  borderTop: "4px solid oklch(0.75 0.12 60)",
-                }}
-              >
-                <div>
-                  <p className="section-label mb-4" style={{ color: "oklch(0.75 0.12 60)" }}>For Practitioners Ready for a Conversation</p>
-                  <h3
-                    className="text-white text-2xl font-bold mb-4 leading-snug"
-                    style={{ fontFamily: "'Playfair Display', serif" }}
-                  >
-                    Talk directly with Mike.
-                  </h3>
-                  <p className="text-white/70 text-lg leading-relaxed mb-8">
-                    The Private Practitioner Briefing is 30 minutes. No slides. No pitch. Just a direct conversation about whether this fits your practice.
-                  </p>
-                </div>
+              <div className="rounded-lg p-6" style={{ backgroundColor: "oklch(0.22 0.04 240)", border: "1px solid oklch(1 0 0 / 10%)" }}>
+                <p className="section-label mb-3">For Practitioners Ready for a Conversation</p>
+                <p className="text-white/70 text-sm leading-relaxed mb-5">
+                  The Private Practitioner Briefing is 30 minutes. No slides. No pitch. Just a direct conversation about whether this fits your practice.
+                </p>
                 <a
                   href="https://calendly.com/mikebeverly"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded font-semibold transition-all border hover:bg-white/10 self-start"
-                  style={{ borderColor: "oklch(0.75 0.12 60)", color: "oklch(0.75 0.12 60)", fontSize: "1rem" }}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 rounded text-sm font-semibold transition-all border hover:bg-white/10"
+                  style={{ borderColor: "oklch(0.55 0.12 185)", color: "oklch(0.65 0.10 185)" }}
                 >
-                  <Calendar size={16} /> Book a Private Briefing
+                  <Calendar size={14} /> Book a Private Briefing
                 </a>
               </div>
             </div>
