@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import { Calendar } from "lucide-react";
 
 const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/L4bpoLh2LFma8n5yzFsaLc/hero-bg-bF3opehcWTcKMHZWVMeBPB.webp";
-const MIKE_PHOTO = "/manus-storage/mike-beverly-headshot_49538678.jpg";
+const MIKE_PHOTO = "/manus-storage/mike-beverly-original-headshot_9c4fed4b.webp";
 
 export default function About() {
   return (
