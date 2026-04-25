@@ -35,6 +35,17 @@ function BlogCard({ post }: { post: BlogPost }) {
         {/* Top accent bar */}
         <div className="h-1 w-full bg-gradient-to-r from-teal-600 to-teal-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
+        {/* Cover image */}
+        {post.image && (
+          <div className="overflow-hidden h-48">
+            <img
+              src={post.image}
+              alt={post.title}
+              className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+        )}
+
         <div className="p-8 flex flex-col flex-1">
           {/* Category + audience badge */}
           <div className="flex items-center gap-3 mb-5">
@@ -142,6 +153,16 @@ export default function Blog() {
             <Link href={`/blog/${filteredPosts[0].slug}`}>
               <article className="group relative bg-[#0d1b2e] border border-white/10 rounded-sm overflow-hidden cursor-pointer hover:border-teal-500/40 transition-all duration-300 hover:shadow-xl hover:shadow-teal-900/20">
                 <div className="h-1 w-full bg-gradient-to-r from-teal-600 via-teal-400 to-amber-400" />
+                {/* Featured cover image */}
+                {filteredPosts[0].image && (
+                  <div className="overflow-hidden h-72 md:h-96">
+                    <img
+                      src={filteredPosts[0].image}
+                      alt={filteredPosts[0].title}
+                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                    />
+                  </div>
+                )}
                 <div className="p-10 md:p-14">
                   <div className="flex items-center gap-3 mb-6">
                     <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full bg-teal-500/20 text-teal-300">

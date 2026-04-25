@@ -161,6 +161,17 @@ export default function BlogPost() {
               {post.readTime}
             </span>
           </div>
+
+          {/* Cover image */}
+          {post.image && (
+            <div className="mt-10 -mx-6 md:mx-0 overflow-hidden rounded-sm">
+              <img
+                src={post.image}
+                alt={post.title}
+                className="w-full object-cover max-h-[520px] object-center"
+              />
+            </div>
+          )}
         </header>
 
         {/* Article body */}

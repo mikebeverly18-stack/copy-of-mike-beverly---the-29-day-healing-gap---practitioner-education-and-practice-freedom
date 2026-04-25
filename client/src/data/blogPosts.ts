@@ -25,6 +25,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "6 min read",
     audience: "both",
     category: "The 29-Day Gap",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/eSD2kFnMHcDWP7gwgtPMpW/blog-header-1-29day-gap-76o5FAQzwxUUunZF5yhUcU.webp",
     excerpt:
       "Your patients leave your office motivated. They have a plan. They understand the protocol. And then they go home — and for the next 29 days, they navigate their chronic condition entirely on their own.",
     content: `Your patients leave your office motivated. They have a plan. They understand the protocol. And then they go home — and for the next 29 days, they navigate their chronic condition entirely on their own.
@@ -131,6 +132,7 @@ That is the conversation I have with every practitioner I work with. And it star
     readTime: "7 min read",
     audience: "both",
     category: "Mike's Story",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/eSD2kFnMHcDWP7gwgtPMpW/blog-header-3-nearly-died-8s8fFmWcTADaJjgfmSAZsy.webp",
     excerpt:
       "In March 2020 a prescription blood thinner almost killed me. And nobody warned me it could. By the time I was admitted to the emergency room I had lost well over fifty percent of my blood.",
     content: `In March 2020 a prescription blood thinner almost killed me. And nobody warned me it could.
@@ -196,6 +198,7 @@ That is the work. And it started with a blood thinner and a holistic nurse in Ot
     readTime: "6 min read",
     audience: "both",
     category: "The Healing Divide",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/eSD2kFnMHcDWP7gwgtPMpW/blog-header-4-healing-divide-SQJuuLFXBZaCBVENjpwSmq.webp",
     excerpt:
       "After four years of research into why we resist natural and alternative healing modalities, I found the same pattern everywhere. The resistance is not about evidence. It is about identity, authority, and institutional inertia.",
     content: `After four years of research into why we resist natural and alternative healing modalities, I found the same pattern everywhere.
@@ -253,6 +256,7 @@ That is the work. And it starts with understanding why the divide exists in the 
     readTime: "5 min read",
     audience: "practitioners",
     category: "Practice Freedom",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/eSD2kFnMHcDWP7gwgtPMpW/blog-header-5-calculator-2RhLakUn6zx7DAXrJLSNkV.webp",
     excerpt:
       "Most practice income stops when you do. You take a week off — income pauses. You get sick — income pauses. You reduce your hours — income reduces. The Practice Freedom Calculator was built to show what a different model looks like for your specific caseload.",
     content: `Most practice income stops when you do.
@@ -308,6 +312,7 @@ If you want to see what that looks like, the calculator is at launch.mikebeverly
     readTime: "6 min read",
     audience: "practitioners",
     category: "Clinical Ethics",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/eSD2kFnMHcDWP7gwgtPMpW/blog-header-6-evidence-tiers-LvVynrmWeJ4y3FKVhANABg.webp",
     excerpt:
       "The question I respect most from practitioners is this one: How certain does the science need to be before you recommend something? It is the right question. And every integrative practitioner I have spoken with has their own honest answer to it.",
     content: `The question I respect most from practitioners is this one.
@@ -365,6 +370,7 @@ If that resonates with how you practice, we are probably worth talking to each o
     readTime: "6 min read",
     audience: "practitioners",
     category: "The 29-Day Gap",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/eSD2kFnMHcDWP7gwgtPMpW/blog-header-7-29days-alone-j6af8DhggUSdDWM9drZmwU.webp",
     excerpt:
       "Most practitioners have a clear picture of what happens during the appointment. Far fewer have a clear picture of what happens after it. Here is what the research — and the patients themselves — tell us.",
     content: `Most practitioners have a clear picture of what happens during the appointment. Far fewer have a clear picture of what happens after it.
@@ -416,6 +422,7 @@ If you want to understand what that structure looks like for your specific casel
     readTime: "5 min read",
     audience: "both",
     category: "Mike's Story",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/eSD2kFnMHcDWP7gwgtPMpW/blog-header-8-blue-bottles-aDCCpSZQ5ssrL2vVFe7f8t.webp",
     excerpt:
       "I was skeptical in the way that anyone trained to trust institutional authority is skeptical of anything outside it. And then within five days something shifted. That moment sent me on a four-year search I have not stopped since.",
     content: `I was skeptical in the way that anyone trained to trust institutional authority is skeptical of anything outside it.
