@@ -10,6 +10,8 @@ import ForPractitioners from "./pages/ForPractitioners";
 import Resources from "./pages/Resources";
 import About from "./pages/About";
 import BookBriefing from "./pages/BookBriefing";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 
 function Router() {
   return (
@@ -20,6 +22,8 @@ function Router() {
       <Route path="/resources" component={Resources} />
       <Route path="/about" component={About} />
       <Route path="/book-briefing" component={BookBriefing} />
+      <Route path="/blog" component={Blog} />
+      <Route path="/blog/:slug" component={BlogPost} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>

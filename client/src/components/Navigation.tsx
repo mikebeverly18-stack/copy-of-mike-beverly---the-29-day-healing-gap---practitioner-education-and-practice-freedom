@@ -13,6 +13,7 @@ const navLinks = [
   { label: "For Practitioners", href: "/for-practitioners" },
   { label: "Resources", href: "/resources" },
   { label: "About", href: "/about" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export default function Navigation() {
