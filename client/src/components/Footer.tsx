@@ -70,7 +70,7 @@ export default function Footer() {
             </p>
             <div className="flex flex-col gap-2 mb-6">
               <a
-                href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
+                href="/manus-storage/practitioner-guide-updated_4c2c15dd.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white/60 hover:text-white text-sm transition-colors"

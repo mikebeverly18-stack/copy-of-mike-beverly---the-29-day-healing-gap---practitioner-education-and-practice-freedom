@@ -120,7 +120,7 @@ export default function Home() {
             </ul>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
+                href="/manus-storage/practitioner-guide-updated_4c2c15dd.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-6 py-3 rounded text-white font-semibold text-sm transition-opacity hover:opacity-90"
@@ -169,7 +169,7 @@ export default function Home() {
             </div>
             <div className="mt-10">
               <a
-                href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
+                href="/manus-storage/practitioner-guide-updated_4c2c15dd.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded text-white font-semibold text-sm transition-opacity hover:opacity-90"
@@ -249,7 +249,7 @@ export default function Home() {
                   I use a three-tier evidence framework so every practitioner I work with knows exactly what the science supports, what it suggests, and what remains unproven.
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
+                  href="/manus-storage/practitioner-guide-updated_4c2c15dd.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors"
@@ -343,7 +343,7 @@ export default function Home() {
                   The Practitioner Guide covers the NRF2 mechanism, the honest evidence picture, and a plain-language claims framework. It is free and written specifically for clinicians.
                 </p>
                 <a
-                  href="https://drive.google.com/file/d/1IjpEDlH8E49fLuod566KtIO6RhHo2RTm/view?usp=sharing"
+                  href="/manus-storage/practitioner-guide-updated_4c2c15dd.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded text-white text-sm font-semibold transition-opacity hover:opacity-90"
