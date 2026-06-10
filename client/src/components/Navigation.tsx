@@ -12,6 +12,7 @@ const navLinks = [
   { label: "The 29-Day Healing Gap", href: "/healing-gap" },
   { label: "For Practitioners", href: "/for-practitioners" },
   { label: "Resources", href: "/resources" },
+  { label: "Buyers Guide", href: "/buyers-guide" },
   { label: "About", href: "/about" },
   { label: "The Healing Divide", href: "/the-book" },
   { label: "Blog", href: "/blog" },

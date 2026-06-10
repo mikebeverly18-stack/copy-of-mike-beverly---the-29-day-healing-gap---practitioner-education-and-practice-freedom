@@ -13,6 +13,7 @@ import BookBriefing from "./pages/BookBriefing";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import TheBook from "./pages/TheBook";
+import BuyersGuide from "./pages/BuyersGuide";
 
 function Router() {
   return (
@@ -26,6 +27,7 @@ function Router() {
       <Route path="/blog" component={Blog} />
       <Route path="/blog/:slug" component={BlogPost} />
       <Route path="/the-book" component={TheBook} />
+      <Route path="/buyers-guide" component={BuyersGuide} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
