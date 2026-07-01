@@ -43,7 +43,7 @@ export default function HealingGap() {
               </h2>
               <p>You see a chronic condition patient. You do excellent clinical work. The assessment, the protocol, the education. They leave motivated and with a plan.</p>
               <p>And then they go home for 29 days.</p>
-              <p>In those 29 days their cellular environment keeps running. Oxidative load accumulates. Inflammatory signalling continues. The body does not pause between appointments.</p>
+              <p>In those 29 days their cellular environment keeps running. Oxidative load accumulates. Inflammatory signaling continues. The body does not pause between appointments.</p>
               <p>When they come back, many practitioners describe the same experience: <strong>starting over.</strong></p>
               <p>This is the 29-Day Healing Gap. It is not a failure of clinical skill. It is a structural gap in how care is delivered.</p>
 
@@ -56,9 +56,9 @@ export default function HealingGap() {
               <h2 className="text-2xl font-bold pt-4" style={{ fontFamily: "'Playfair Display', serif", color: "oklch(0.18 0.04 240)" }}>
                 The science behind the gap
               </h2>
-              <p>The science of cellular signalling — specifically the NRF2 pathway and redox biology — gives practitioners a clinically grounded, evidence-honest framework for supporting their patients at the cellular level between visits.</p>
+              <p>The science of cellular signaling — specifically the NRF2 pathway and redox biology — gives practitioners a clinically grounded, evidence-honest framework for supporting their patients at the cellular level between visits.</p>
               <p>The NRF2 pathway is one of the most significant cytoprotective mechanisms in human physiology. When activated it upregulates hundreds of genes involved in oxidative stress response, inflammation resolution, and mitochondrial biogenesis.</p>
-              <p>This is not a supplement conversation. It is a cellular signalling conversation. And it changes how you support chronic condition patients between appointments.</p>
+              <p>This is not a supplement conversation. It is a cellular signaling conversation. And it changes how you support chronic condition patients between appointments.</p>
 
               <h2 className="text-2xl font-bold pt-4" style={{ fontFamily: "'Playfair Display', serif", color: "oklch(0.18 0.04 240)" }}>
                 The solution
@@ -112,7 +112,7 @@ export default function HealingGap() {
               <div className="rounded-lg p-6 border" style={{ borderColor: "oklch(0.88 0.01 240)" }}>
                 <p className="section-label mb-3">Free Resource</p>
                 <h3 className="font-bold text-base mb-2" style={{ fontFamily: "'Playfair Display', serif", color: "oklch(0.18 0.04 240)" }}>
-                  Redox Signalling for Clinicians
+                  Redox Signaling for Clinicians
                 </h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
                   A three-page guide covering the NRF2 mechanism, an honest evidence appraisal, and a plain-language claims framework.

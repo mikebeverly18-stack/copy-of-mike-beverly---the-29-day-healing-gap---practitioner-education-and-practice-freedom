@@ -11,7 +11,7 @@ const resources = [
   {
     icon: Download,
     label: "Free Guide",
-    title: "Redox Signalling & Cellular Communication",
+    title: "Redox Signaling & Cellular Communication",
     subtitle: "A Practitioner's Evidence Guide",
     description: "Three pages covering the NRF2 mechanism, an honest evidence appraisal using a three-tier framework, and a plain-language claims guide for practitioner-patient conversations. Written specifically for integrative clinicians.",
     cta: "Download the Guide (free)",

@@ -25,7 +25,7 @@ const chapters = [
   {
     number: "03",
     title: "The Science They Don't Teach",
-    description: "Cutting-edge research on cellular signalling, the NRF2 pathway, and what it means for practitioners working with chronic conditions.",
+    description: "Cutting-edge research on cellular signaling, the NRF2 pathway, and what it means for practitioners working with chronic conditions.",
   },
 ];
 

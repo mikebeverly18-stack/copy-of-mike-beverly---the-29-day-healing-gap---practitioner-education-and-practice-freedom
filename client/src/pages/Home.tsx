@@ -109,7 +109,7 @@ export default function Home() {
             <ul className="mb-10 space-y-3">
               {[
                 "Your patients deserve support in the 29 days you do not see them",
-                "The science of cellular signalling explained honestly for clinicians",
+                "The science of cellular signaling explained honestly for clinicians",
                 "A practice income model built on clinical work you are already doing",
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3 text-white/80" style={{ fontSize: "1rem" }}>
@@ -162,10 +162,10 @@ export default function Home() {
             <div className="text-left space-y-4 text-white/75 text-base leading-relaxed">
               <p>You see a chronic condition patient. You do excellent clinical work. The assessment, the protocol, the education. They leave motivated.</p>
               <p>And then they go home for 29 days.</p>
-              <p>In those 29 days their cellular environment keeps running. Oxidative load accumulates. Inflammatory signalling continues. The body does not pause between appointments.</p>
+              <p>In those 29 days their cellular environment keeps running. Oxidative load accumulates. Inflammatory signaling continues. The body does not pause between appointments.</p>
               <p>When they come back, many practitioners describe the same experience: <span className="text-white font-semibold">starting over.</span></p>
               <p>This is the 29-Day Healing Gap. It is not a failure of clinical skill. It is a structural gap in how care is delivered. And it has a solution.</p>
-              <p>The science of cellular signalling — specifically the NRF2 pathway and redox biology — gives practitioners a clinically grounded, evidence-honest framework for supporting their patients at the cellular level between visits.</p>
+              <p>The science of cellular signaling — specifically the NRF2 pathway and redox biology — gives practitioners a clinically grounded, evidence-honest framework for supporting their patients at the cellular level between visits.</p>
             </div>
             <div className="mt-10">
               <a
@@ -243,7 +243,7 @@ export default function Home() {
                   The NRF2 pathway is one of the most significant cytoprotective mechanisms in human physiology. When activated it upregulates hundreds of genes involved in oxidative stress response, inflammation resolution, and mitochondrial biogenesis.
                 </p>
                 <p className="text-white/70 text-sm leading-relaxed mb-4">
-                  This is not a supplement conversation. It is a cellular signalling conversation. And it changes how you support chronic condition patients between appointments.
+                  This is not a supplement conversation. It is a cellular signaling conversation. And it changes how you support chronic condition patients between appointments.
                 </p>
                 <p className="text-white/70 text-sm leading-relaxed mb-6">
                   I use a three-tier evidence framework so every practitioner I work with knows exactly what the science supports, what it suggests, and what remains unproven.

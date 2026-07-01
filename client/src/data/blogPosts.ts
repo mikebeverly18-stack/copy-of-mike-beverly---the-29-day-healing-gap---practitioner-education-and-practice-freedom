@@ -48,11 +48,11 @@ By day 29, many of them are further behind than when they left your office.
 
 This is not a patient discipline problem. It is a support gap problem.
 
-The body does not pause between appointments. Oxidative load keeps accumulating. Inflammatory signalling keeps running. And without any clinical touchpoint in those 29 days, there is nothing anchoring the progress you worked so hard to create.
+The body does not pause between appointments. Oxidative load keeps accumulating. Inflammatory signaling keeps running. And without any clinical touchpoint in those 29 days, there is nothing anchoring the progress you worked so hard to create.
 
 **The science behind the gap**
 
-At the cellular level, chronic conditions are driven by persistent oxidative stress and dysregulated redox signalling. The interventions that address these mechanisms — whether nutritional, botanical, or protocol-based — require consistency to produce measurable change.
+At the cellular level, chronic conditions are driven by persistent oxidative stress and dysregulated redox signaling. The interventions that address these mechanisms — whether nutritional, botanical, or protocol-based — require consistency to produce measurable change.
 
 A single appointment can initiate a shift. But the shift requires maintenance between visits to hold and build.
 
@@ -72,7 +72,7 @@ The 29-Day Healing Gap is real. It is measurable. And it has a solution.`,
     id: "2",
     slug: "the-body-does-not-pause-between-appointments",
     title: "The Body Does Not Pause Between Appointments",
-    subtitle: "Oxidative load keeps accumulating. Inflammatory signalling keeps running. And your patient is navigating it alone.",
+    subtitle: "Oxidative load keeps accumulating. Inflammatory signaling keeps running. And your patient is navigating it alone.",
     date: "April 2025",
     readTime: "5 min read",
     audience: "practitioners",
@@ -99,7 +99,7 @@ The problem is structural. The clinical model was not designed to support what h
 
 And for acute conditions, that is often sufficient. You treat the presenting issue. The body heals. The patient returns if needed.
 
-But chronic conditions do not work that way. Chronic conditions are driven by persistent mechanisms — oxidative stress, inflammatory signalling, dysregulated cellular communication — that do not pause because the appointment is over.
+But chronic conditions do not work that way. Chronic conditions are driven by persistent mechanisms — oxidative stress, inflammatory signaling, dysregulated cellular communication — that do not pause because the appointment is over.
 
 **The body keeps working whether or not you are in the room.**
 
@@ -109,7 +109,7 @@ The patient goes home with good intentions and a protocol. But good intentions d
 
 **What the research tells us**
 
-The mechanisms that drive chronic condition improvement — particularly in the context of redox biology and cellular signalling — require sustained consistency to produce measurable outcomes. The interventions work. But they work over time, with maintenance.
+The mechanisms that drive chronic condition improvement — particularly in the context of redox biology and cellular signaling — require sustained consistency to produce measurable outcomes. The interventions work. But they work over time, with maintenance.
 
 When that maintenance is interrupted — when compliance slips, when stress spikes, when the patient loses momentum — the cellular environment does not hold. It reverts.
 
@@ -395,7 +395,7 @@ By the second week, the patients who were going to maintain compliance have larg
 
 The drift is rarely dramatic. It is incremental. A missed supplement here. A dietary deviation there. A stress response that was not managed because there was no protocol for managing it.
 
-At the cellular level, the drift is measurable. Oxidative load begins to reassert. Inflammatory signalling that was beginning to quiet starts to run again. The redox environment that was shifting in the right direction starts to shift back.
+At the cellular level, the drift is measurable. Oxidative load begins to reassert. Inflammatory signaling that was beginning to quiet starts to run again. The redox environment that was shifting in the right direction starts to shift back.
 
 **Day twenty-one through day twenty-nine: the reversal**
 
@@ -437,7 +437,7 @@ Within five days I felt something shift that I had not felt in longer than I cou
 
 I am not a clinician. I do not make clinical claims. I cannot tell you with certainty what was happening at the cellular level during those five days. I can tell you what I experienced. And I can tell you what four years of subsequent research taught me about why that experience was consistent with what the science increasingly supports.
 
-The intervention I was given worked at the level of redox signalling — the cellular communication system that governs how the body responds to oxidative stress, manages inflammation, and coordinates recovery. It was not a pharmaceutical. It was not a supplement in the conventional sense. It was a signalling molecule that the body already produces, delivered in a form that the body could use.
+The intervention I was given worked at the level of redox signaling — the cellular communication system that governs how the body responds to oxidative stress, manages inflammation, and coordinates recovery. It was not a pharmaceutical. It was not a supplement in the conventional sense. It was a signaling molecule that the body already produces, delivered in a form that the body could use.
 
 The research on this class of intervention is substantial and growing. The mechanisms are well-documented. The clinical outcomes, in the hands of practitioners who understand how to use it, are consistent.
 
@@ -487,7 +487,7 @@ Because understanding what NRF2 actually does at the cellular level will change 
 
 My name is Mike Beverly. I am not a clinician. I want to be clear about that from the start.
 
-What I am is someone who spent four years researching cellular signalling after a near-death experience in 2020 that conventional medicine could not solve. That research became a published book called The Healing Divide, with a foreword by Richard G. Michal, M.D.
+What I am is someone who spent four years researching cellular signaling after a near-death experience in 2020 that conventional medicine could not solve. That research became a published book called The Healing Divide, with a foreword by Richard G. Michal, M.D.
 
 I work with integrative and functional practitioners who want to extend their therapeutic reach between appointments, without adding to their schedule. That work keeps bringing me back to one biological pathway above all others.
 
@@ -507,13 +507,13 @@ For your chronic condition patients, particularly those with persistent inflamma
 
 The work you do in the room can be undermined by what happens in the 29 days between visits if there is no mechanism supporting cellular resilience in between.
 
-NRF2 pathway support is one of the few interventions that operates at the signalling level, not just the substrate level. That distinction has clinical implications worth understanding.
+NRF2 pathway support is one of the few interventions that operates at the signaling level, not just the substrate level. That distinction has clinical implications worth understanding.
 
 **The evidence landscape**
 
 I want to be honest with you about the evidence, because I think the way this is sometimes presented to clinicians undersells what the science actually shows, and oversimplifies what it does not.
 
-Tier one: NRF2 pathway biology is extremely well established. The 2015 Nobel Prize in Chemistry recognised work directly related to cellular stress response and signalling mechanisms relevant to this pathway.
+Tier one: NRF2 pathway biology is extremely well established. The 2015 Nobel Prize in Chemistry recognised work directly related to cellular stress response and signaling mechanisms relevant to this pathway.
 
 Tier two: clinical and preclinical studies on NRF2 modulation span thousands of peer-reviewed papers across oncology, neurology, metabolic disease, and cardiovascular medicine.
 
@@ -529,14 +529,14 @@ If you want to have that conversation, the link to book a short private briefing
   },
   {
     id: "10",
-    slug: "antioxidants-vs-signalling-your-own-antioxidant-response",
-    title: "Taking Antioxidants vs. Signalling Your Own Antioxidant Response",
+    slug: "antioxidants-vs-signaling-your-own-antioxidant-response",
+    title: "Taking Antioxidants vs. Signaling Your Own Antioxidant Response",
     subtitle: "The distinction most clinicians get wrong, and why it changes everything about how you approach oxidative stress.",
     date: "June 2025",
     readTime: "7 min read",
     audience: "practitioners",
     category: "Clinical Science",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/eSD2kFnMHcDWP7gwgtPMpW/blog-header-antioxidants-vs-signalling-F8X83YBwWTUTj8wXTdkW9Q.webp",
+    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663435242541/eSD2kFnMHcDWP7gwgtPMpW/blog-header-antioxidants-vs-signaling-F8X83YBwWTUTj8wXTdkW9Q.webp",
     excerpt:
       "The question is this: what is the actual difference between taking a high-dose antioxidant supplement and activating your own cellular antioxidant response? The answer changes everything about how you approach oxidative stress in your most complex cases.",
     content: `There is a distinction that most people in this space, even well-intentioned ones, get wrong.
@@ -557,7 +557,7 @@ Exogenous antioxidants operate stoichiometrically. One molecule neutralises one 
 
 The human body, when functioning correctly, does not work that way.
 
-**The cellular signalling shift**
+**The cellular signaling shift**
 
 The cellular antioxidant response, governed primarily by the NRF2 pathway, is catalytic, not stoichiometric.
 
@@ -571,9 +571,9 @@ That is not a marginal difference. It is a fundamentally different mechanism.
 
 Your patients who have been on antioxidant protocols for months or years and are still struggling with oxidative load, fatigue, and inflammatory burden, this is worth considering.
 
-The question is not whether antioxidants are useful. The question is whether the primary strategy should be additive or signalling-based.
+The question is not whether antioxidants are useful. The question is whether the primary strategy should be additive or signaling-based.
 
-For patients with significant chronic load, the signalling approach may offer something the additive approach simply cannot, at least not at a clinically practical dose.
+For patients with significant chronic load, the signaling approach may offer something the additive approach simply cannot, at least not at a clinically practical dose.
 
 **The honest caveat**
 
@@ -619,7 +619,7 @@ Think about the last time a patient came back after a month and you thought: the
 
 In most cases, the work done in the appointment was sound. The recommendations were appropriate. The patient was motivated, at least in that room.
 
-But motivation does not protect the cellular environment. Compliance does not neutralise oxidative load. Intention does not stop inflammatory signalling.
+But motivation does not protect the cellular environment. Compliance does not neutralise oxidative load. Intention does not stop inflammatory signaling.
 
 Between your appointments, your patient's biology keeps running. Stress accumulates. Sleep is disrupted. Diet is inconsistent. And without a mechanism anchoring the cellular repair process between visits, the progress you build in the room erodes.
 
@@ -637,7 +637,7 @@ The practitioners who are getting the best outcomes with their chronic condition
 
 I am going to be specific here, because I think vague language about wellness and support does a disservice to clinicians who take evidence seriously.
 
-A meaningful between-visit support system for chronic condition patients needs to operate at the signalling level. Not just the symptom level.
+A meaningful between-visit support system for chronic condition patients needs to operate at the signaling level. Not just the symptom level.
 
 That means supporting the body's own cellular repair mechanisms, the pathways that govern oxidative stress response, inflammation resolution, and mitochondrial resilience, in a way that is continuous, not episodic.
 
@@ -695,7 +695,7 @@ Deep healing is not the same as symptom management.
 
 Symptom management is important. It is often where we have to start. But the practitioners who achieve the outcomes that generate lifelong patient relationships are the ones who move the needle at the cellular level, not just the symptomatic level.
 
-That means addressing the underlying environment, oxidative load, inflammatory signalling, cellular energy production, not just the downstream symptoms those processes create.
+That means addressing the underlying environment, oxidative load, inflammatory signaling, cellular energy production, not just the downstream symptoms those processes create.
 
 It means having a support system that operates between appointments, not just during them.
 
