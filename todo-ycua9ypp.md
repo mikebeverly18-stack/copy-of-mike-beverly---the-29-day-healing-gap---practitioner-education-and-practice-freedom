@@ -1,0 +1,3 @@
+- [x] Update the homepage SEO meta description with the revised practitioner wording.
+- [x] Verify the updated metadata in a production build.
+- [ ] Save a checkpoint for the completed SEO update.
