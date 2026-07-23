@@ -6,4 +6,7 @@
 - [x] Save a checkpoint for the completed keyword update.
 - [x] Update the homepage SEO title with the user-provided text.
 - [x] Verify the title in a production build.
-- [ ] Save a checkpoint for the completed title update.
+- [x] Save a checkpoint for the completed title update.
+- [x] Update the homepage hero subheadline line break.
+- [x] Verify the updated hero layout and production build.
+- [ ] Save a checkpoint for the completed subheadline update.

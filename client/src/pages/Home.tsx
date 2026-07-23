@@ -97,7 +97,8 @@ export default function Home() {
             >
               There is a 29-Day Healing Gap in your practice.
               <span className="block mt-2" style={{ color: "oklch(0.75 0.15 70)" }}>
-                Here is what you can do about it.
+                <span className="block whitespace-nowrap text-[0.84em] sm:text-[1em]">Here is what you can do</span>
+                <span className="block">about it.</span>
               </span>
             </h1>
             <p className="text-white/75 text-lg leading-relaxed mb-6 max-w-xl">
