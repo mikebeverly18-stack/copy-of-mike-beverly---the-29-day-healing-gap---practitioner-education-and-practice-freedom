@@ -3,4 +3,7 @@
 - [x] Save a checkpoint for the completed SEO update.
 - [x] Add the supplied keyword list to the homepage SEO metadata.
 - [x] Verify the keywords in a production build.
-- [ ] Save a checkpoint for the completed keyword update.
+- [x] Save a checkpoint for the completed keyword update.
+- [x] Update the homepage SEO title with the user-provided text.
+- [x] Verify the title in a production build.
+- [ ] Save a checkpoint for the completed title update.
