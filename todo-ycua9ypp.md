@@ -9,4 +9,7 @@
 - [x] Save a checkpoint for the completed title update.
 - [x] Update the homepage hero subheadline line break.
 - [x] Verify the updated hero layout and production build.
-- [ ] Save a checkpoint for the completed subheadline update.
+- [x] Save a checkpoint for the completed subheadline update.
+- [x] Revise the homepage hero subheadline so “do” begins the second line.
+- [x] Verify the revised desktop and mobile hero layout.
+- [ ] Save a checkpoint for the revised subheadline layout.
