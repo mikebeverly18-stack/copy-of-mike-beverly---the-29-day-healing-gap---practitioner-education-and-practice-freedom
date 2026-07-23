@@ -16,4 +16,8 @@
 - [x] Reformat the homepage hero headline into the requested two-line layout.
 - [x] Rebalance the spacing beneath the two-line subheadline.
 - [x] Verify the revised hero on desktop and mobile.
-- [ ] Save a checkpoint for the completed hero refinement.
+- [x] Save a checkpoint for the completed hero refinement.
+- [x] Locate the homepage explanation of the 29-Day Healing Gap.
+- [x] Add the user-provided clarification near that explanation.
+- [x] Verify the added content on desktop and mobile.
+- [ ] Save a checkpoint for the completed clarification update.

@@ -167,6 +167,9 @@ export default function Home() {
               <p>In those 29 days their cellular environment keeps running. Oxidative load accumulates. Inflammatory signaling continues. The body does not pause between appointments.</p>
               <p>When they come back, many practitioners describe the same experience: <span className="text-white font-semibold">starting over.</span></p>
               <p>This is the 29-Day Healing Gap. It is not a failure of clinical skill. It is a structural gap in how care is delivered. And it has a solution.</p>
+              <p className="border-l-2 pl-4 text-white/90" style={{ borderColor: "oklch(0.55 0.12 185)" }}>
+                This refers to the critical early window in your body's cellular rebalancing process, the period before full recovery and homeostasis are typically reached, not a fixed schedule tied to how often you're seen in-office. Whether you visit weekly or monthly, this window is what determines how well your body holds onto progress between appointments.
+              </p>
               <p>The science of cellular signaling — specifically the NRF2 pathway and redox biology — gives practitioners a clinically grounded, evidence-honest framework for supporting their patients at the cellular level between visits.</p>
             </div>
             <div className="mt-10">
