@@ -12,4 +12,8 @@
 - [x] Save a checkpoint for the completed subheadline update.
 - [x] Revise the homepage hero subheadline so “do” begins the second line.
 - [x] Verify the revised desktop and mobile hero layout.
-- [ ] Save a checkpoint for the revised subheadline layout.
+- [x] Save a checkpoint for the revised subheadline layout.
+- [x] Reformat the homepage hero headline into the requested two-line layout.
+- [x] Rebalance the spacing beneath the two-line subheadline.
+- [x] Verify the revised hero on desktop and mobile.
+- [ ] Save a checkpoint for the completed hero refinement.

@@ -92,11 +92,12 @@ export default function Home() {
           <div className="max-w-2xl">
             <p className="section-label mb-4">Practitioner Education · Practice Freedom</p>
             <h1
-              className="text-white text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
+              className="text-white text-[1.75rem] sm:text-4xl md:text-5xl lg:text-[3.15rem] font-bold leading-[1.08] mb-8 md:mb-9"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
-              There is a 29-Day Healing Gap in your practice.
-              <span className="block mt-2 text-[0.9em] sm:text-[1em]" style={{ color: "oklch(0.75 0.15 70)" }}>
+              <span className="block whitespace-nowrap">There is a 29-Day Healing</span>
+              <span className="block">Gap in your practice.</span>
+              <span className="block mt-3 text-[0.9em] leading-[1.1] sm:mt-4 sm:text-[1em]" style={{ color: "oklch(0.75 0.15 70)" }}>
                 <span className="block whitespace-nowrap">Here is what you can</span>
                 <span className="block">do about it.</span>
               </span>
