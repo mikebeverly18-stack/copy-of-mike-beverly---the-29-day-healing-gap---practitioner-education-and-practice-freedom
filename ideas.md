@@ -111,3 +111,9 @@ Tone: Serious, credible, human, evidence-honest. NOT salesy, NOT clinical-cold.
 ## Selected Approach: Idea A — "Clinical Authority" (Dark Editorial)
 
 **Rationale:** The dark editorial approach best matches the existing brand assets (the PDF, the social graphics) and the audience psychology. Practitioners respond to authority and credibility signals. The deep navy + teal palette is already established. The asymmetric editorial layout avoids the "AI slop" centered layout trap. Playfair Display adds gravitas without being cold.
+
+## Style Decisions
+
+- Blog and article routes use a restrained amber **29** as a recurring typographic anchor. Amber remains reserved for the 29-Day Healing Gap and high-value urgency moments.
+- Long-form article pages use teal rules and evidence-style callouts to create a clinical-publication rhythm without weakening reading comfort.
+- The blog archive treats the first secondary story as a larger editorial feature, creating a clearer issue-like hierarchy than a uniform card grid.

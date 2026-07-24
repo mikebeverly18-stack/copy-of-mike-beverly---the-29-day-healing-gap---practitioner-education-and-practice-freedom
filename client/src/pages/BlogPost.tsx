@@ -4,6 +4,7 @@
  * Renders full post content from blogPosts data file.
  */
 
+import { useEffect } from "react";
 import { useParams, Link } from "wouter";
 import { getBlogPost, blogPosts, type BlogPost } from "@/data/blogPosts";
 import Navigation from "@/components/Navigation";
@@ -14,8 +15,38 @@ function formatContent(content: string) {
   // Split content into paragraphs and handle **bold** markdown
   const paragraphs = content.split("\n\n");
 
+  const renderInlineBold = (text: string) => {
+    const parts = text.split(/(\*\*[^*]+\*\*)/g);
+
+    return parts.map((part, j) => {
+      if (part.startsWith("**") && part.endsWith("**")) {
+        return (
+          <strong key={j} className="text-white font-semibold">
+            {part.slice(2, -2)}
+          </strong>
+        );
+      }
+      return part;
+    });
+  };
+
   return paragraphs.map((para, i) => {
     if (!para.trim()) return null;
+
+    if (para === "---") {
+      return <hr key={i} className="my-10 border-white/10" />;
+    }
+
+    if (para.startsWith("## ")) {
+      return (
+        <h3
+          key={i}
+          className="font-['Playfair_Display'] text-2xl font-bold text-white mt-10 mb-4"
+        >
+          {para.slice(3)}
+        </h3>
+      );
+    }
 
     // Handle headings (lines starting with **)
     if (para.startsWith("**") && para.endsWith("**") && !para.slice(2, -2).includes("**")) {
@@ -29,22 +60,28 @@ function formatContent(content: string) {
       );
     }
 
-    // Handle inline bold
-    const parts = para.split(/(\*\*[^*]+\*\*)/g);
-    const rendered = parts.map((part, j) => {
-      if (part.startsWith("**") && part.endsWith("**")) {
-        return (
-          <strong key={j} className="text-white font-semibold">
-            {part.slice(2, -2)}
-          </strong>
-        );
-      }
-      return part;
-    });
+    const listItems = para.split("\n");
+    if (listItems.every((item) => item.startsWith("- "))) {
+      return (
+        <ul key={i} className="mb-7 space-y-3 pl-6 text-white/75 text-lg leading-relaxed list-disc marker:text-teal-400">
+          {listItems.map((item, j) => (
+            <li key={j}>{renderInlineBold(item.slice(2))}</li>
+          ))}
+        </ul>
+      );
+    }
+
+    if (para.startsWith("*") && para.endsWith("*") && !para.startsWith("**")) {
+      return (
+        <p key={i} className="text-white/55 text-base leading-relaxed italic mb-5">
+          {renderInlineBold(para.slice(1, -1))}
+        </p>
+      );
+    }
 
     return (
       <p key={i} className="text-white/75 text-lg leading-relaxed mb-6">
-        {rendered}
+        {renderInlineBold(para)}
       </p>
     );
   });
@@ -72,6 +109,33 @@ function RelatedPost({ post }: { post: BlogPost }) {
 export default function BlogPost() {
   const params = useParams<{ slug: string }>();
   const post = getBlogPost(params.slug);
+
+  useEffect(() => {
+    if (!post) return;
+
+    const previousTitle = document.title;
+    let description = document.querySelector<HTMLMetaElement>('meta[name="description"]');
+    const createdDescription = !description;
+    const previousDescription = description?.getAttribute("content") ?? "";
+
+    if (!description) {
+      description = document.createElement("meta");
+      description.name = "description";
+      document.head.appendChild(description);
+    }
+
+    document.title = post.seoTitle ?? `${post.title} | The 29-Day Healing Gap`;
+    description.content = post.metaDescription ?? post.excerpt;
+
+    return () => {
+      document.title = previousTitle;
+      if (createdDescription) {
+        description?.remove();
+      } else if (description) {
+        description.content = previousDescription;
+      }
+    };
+  }, [post]);
 
   if (!post) {
     return (
@@ -120,6 +184,19 @@ export default function BlogPost() {
       {/* Article header */}
       <article className="max-w-4xl mx-auto px-6 pb-16">
         <header className="mb-12">
+          <div className="relative mb-7 overflow-hidden border-y border-white/10 py-3">
+            <span
+              aria-hidden="true"
+              className="absolute -top-8 right-0 select-none font-['Playfair_Display'] text-8xl font-bold leading-none text-amber-300/[0.13]"
+            >
+              29
+            </span>
+            <div className="relative flex items-center gap-3 text-[0.68rem] font-semibold uppercase tracking-[0.22em]">
+              <span className="text-teal-400">29-Day Healing Gap</span>
+              <span className="h-px w-8 bg-teal-400/50" />
+              <span className="text-white/45">Clinical Field Note</span>
+            </div>
+          </div>
           {/* Category badge */}
           <div className="flex items-center gap-3 mb-6">
             <span className="text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full bg-teal-500/20 text-teal-300">
@@ -176,6 +253,16 @@ export default function BlogPost() {
 
         {/* Article body */}
         <div className="max-w-2xl">
+          {post.slug === "the-burnout-nobody-talks-about-in-hands-on-practice" && (
+            <aside className="mb-10 border-y border-teal-400/30 bg-teal-500/[0.07] px-6 py-6">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-teal-300">
+                Practitioner Freedom Note
+              </p>
+              <p className="font-['Playfair_Display'] text-2xl leading-snug text-white">
+                Your hands are part of the care model. Protecting them is part of practice sustainability.
+              </p>
+            </aside>
+          )}
           {formatContent(post.content)}
         </div>
 

@@ -23,10 +23,11 @@ const categoryColors: Record<string, string> = {
   "Mike's Story": "bg-amber-700/20 text-amber-300",
   "The Healing Divide": "bg-purple-700/20 text-purple-300",
   "Practice Freedom": "bg-emerald-700/20 text-emerald-300",
+  "Practice Sustainability": "bg-teal-700/20 text-teal-300",
   "Clinical Ethics": "bg-rose-700/20 text-rose-300",
 };
 
-function BlogCard({ post }: { post: BlogPost }) {
+function BlogCard({ post, emphasis = false }: { post: BlogPost; emphasis?: boolean }) {
   const categoryStyle = categoryColors[post.category] || "bg-gray-700/20 text-gray-300";
 
   return (
@@ -37,7 +38,7 @@ function BlogCard({ post }: { post: BlogPost }) {
 
         {/* Cover image */}
         {post.image && (
-          <div className="overflow-hidden h-48">
+          <div className={`overflow-hidden ${emphasis ? "h-64 md:h-72" : "h-48"}`}>
             <img
               src={post.image}
               alt={post.title}
@@ -65,7 +66,7 @@ function BlogCard({ post }: { post: BlogPost }) {
           </div>
 
           {/* Title */}
-          <h2 className="font-['Playfair_Display'] text-xl font-bold text-white leading-snug mb-3 group-hover:text-teal-200 transition-colors duration-200">
+          <h2 className={`font-['Playfair_Display'] font-bold text-white leading-snug mb-3 group-hover:text-teal-200 transition-colors duration-200 ${emphasis ? "text-2xl md:text-3xl" : "text-xl"}`}>
             {post.title}
           </h2>
 
@@ -108,8 +109,14 @@ export default function Blog() {
       <Navigation />
 
       {/* Hero */}
-      <section className="pt-32 pb-16 px-6">
-        <div className="max-w-5xl mx-auto">
+      <section className="relative overflow-hidden pt-32 pb-16 px-6">
+        <span
+          aria-hidden="true"
+          className="absolute right-4 top-16 select-none font-['Playfair_Display'] text-[10rem] leading-none font-bold text-amber-300/[0.07] md:right-[12%] md:text-[15rem]"
+        >
+          29
+        </span>
+        <div className="relative max-w-5xl mx-auto">
           <p className="text-teal-400 text-sm font-semibold uppercase tracking-[0.2em] mb-4">
             Insights & Perspectives
           </p>
@@ -155,7 +162,7 @@ export default function Blog() {
                 <div className="h-1 w-full bg-gradient-to-r from-teal-600 via-teal-400 to-amber-400" />
                 {/* Featured cover image */}
                 {filteredPosts[0].image && (
-                  <div className="overflow-hidden h-72 md:h-96">
+                  <div className="overflow-hidden aspect-video md:aspect-auto md:h-96">
                     <img
                       src={filteredPosts[0].image}
                       alt={filteredPosts[0].title}
@@ -202,8 +209,10 @@ export default function Blog() {
         <section className="px-6 pb-24">
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {filteredPosts.slice(1).map((post) => (
-                <BlogCard key={post.id} post={post} />
+              {filteredPosts.slice(1).map((post, index) => (
+                <div key={post.id} className={index === 0 ? "md:col-span-2" : ""}>
+                  <BlogCard post={post} emphasis={index === 0} />
+                </div>
               ))}
             </div>
           </div>

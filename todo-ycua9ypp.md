@@ -27,4 +27,16 @@
 - [x] Inventory the existing blog posts and assign dates across January through June 2026.
 - [x] Update each blog post’s visible publish date.
 - [x] Verify the blog listing and article date rendering.
-- [ ] Save a checkpoint for the completed blog-date update.
+- [x] Save a checkpoint for the completed blog-date update.
+- [x] Prepare the burnout article metadata and SEO fields.
+- [x] Generate a black, white, and teal featured graphic for the article.
+- [x] Add the article to the blog data with the July 24, 2026 publish date.
+- [x] Apply focused editorial refinements to the article and blog archive.
+- [x] Verify the blog listing, article page, and metadata.
+- [ ] Save a checkpoint for the completed burnout article.
+
+## Verification Notes
+
+- Desktop review: the new article is featured on the archive, the black, white, and teal header graphic renders, and the restrained amber 29 motif is visible on both blog routes.
+- Mobile review: article framing and metadata are readable. The featured graphic needed an aspect-ratio adjustment on the blog archive so its title remains fully visible on narrow screens.
+- Metadata review: the SEO title includes “practitioner burnout” and “practice sustainability”; the meta description is 139 characters.

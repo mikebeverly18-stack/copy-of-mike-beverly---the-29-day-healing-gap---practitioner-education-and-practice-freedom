@@ -7,6 +7,8 @@ export interface BlogPost {
   title: string;
   subtitle: string;
   date: string;
+  seoTitle?: string;
+  metaDescription?: string;
   readTime: string;
   audience: "practitioners" | "patients" | "both";
   category: string;
@@ -16,6 +18,54 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: "13",
+    slug: "the-burnout-nobody-talks-about-in-hands-on-practice",
+    title: "The Burnout Nobody Talks About in Hands-On Practice",
+    subtitle: "The physical wear and income exposure of hands-on work deserve a more honest conversation.",
+    date: "July 24, 2026",
+    seoTitle: "The Burnout Nobody Talks About | Practitioner Burnout & Practice Sustainability",
+    metaDescription: "Explore the physical and financial toll of hands-on practice and practical steps toward practitioner wellbeing and practice sustainability.",
+    readTime: "3 min read",
+    audience: "practitioners",
+    category: "Practice Sustainability",
+    image: "/manus-storage/burnout-hands-on-practice-header_20e9212d.png",
+    excerpt:
+      "Hands-on practitioners carry their work in their own bodies. The physical risk and income exposure deserve a more honest conversation.",
+    content: `Your hands are how you heal people. They're also quietly wearing out, and almost nobody in this profession says that part out loud.
+
+## The Physical Toll That Doesn't Show Up on a Chart
+
+Repetitive strain on hands and wrists. Standing session after session with barely a break. The emotional labor of holding space for patients who are in pain, day after day. It adds up, and it adds up specifically because this is a profession built around treating other people's depletion while quietly accumulating your own.
+
+This isn't a complaint about the work itself, most practitioners genuinely love what they do. It's a recognition that the tools of your trade are also, literally, your own body. A desk-based professional's primary occupational risk is eye strain and bad posture. Yours is different, more direct, and more personal.
+
+## The Missing Safety Net
+
+Here's the part that compounds the physical wear: unlike a salaried role, there's rarely a real safety net built in. A torn rotator cuff doesn't just interrupt your schedule, it interrupts your income entirely. A family illness that pulls your attention for a few weeks does the same. Needing time for parental leave doesn't pause your overhead. In a field with no built-in coverage for either the physical wear or the income gap it creates, practitioners are often managing risk that most other professions have structurally solved for.
+
+## Why Naming This Matters
+
+Naming both sides of this openly, the physical wear and the lack of a leave structure, is the first step toward building a practice that doesn't quietly consume the practitioner running it. Practice sustainability isn't just a scheduling question or a business-model question. For hands-on practitioners specifically, it's a physical one too, and treating it as purely a business problem misses half of what's actually at stake.
+
+## A Few Places to Start
+
+This isn't a call to burn out quietly or to power through. A few practical starting points worth considering:
+
+- **Track your own physical load the way you'd track a patient's.** If you wouldn't let a patient ignore repetitive strain symptoms, don't ignore your own.
+- **Build margin into your schedule deliberately**, not just when you're already hurting. Recovery time between sessions isn't indulgent, it's the same principle you'd apply to any patient's treatment plan.
+- **Have an honest conversation with yourself about income continuity.** What would three weeks of forced time off actually do to your practice financially, and is there any structure in place to soften that, even a small one?
+
+## A Question Worth Asking Yourself
+
+What's the physical toll of this work that your patients never see? It's worth sitting with that question honestly, not to dwell on it, but because naming it is usually the first real step toward doing something about it.
+
+---
+
+*This is part of the Practitioner Freedom series, ongoing education on the science and business of hands-on practice.*
+
+*This content is for educational purposes and reflects general clinical patterns, not medical advice. Statements have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any disease.*`,
+  },
   {
     id: "1",
     slug: "what-is-the-29-day-healing-gap",
