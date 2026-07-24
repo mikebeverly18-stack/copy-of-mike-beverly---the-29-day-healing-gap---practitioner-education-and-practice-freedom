@@ -20,4 +20,11 @@
 - [x] Locate the homepage explanation of the 29-Day Healing Gap.
 - [x] Add the user-provided clarification near that explanation.
 - [x] Verify the added content on desktop and mobile.
-- [ ] Save a checkpoint for the completed clarification update.
+- [x] Save a checkpoint for the completed clarification update.
+- [x] Inspect the source of the blog publish dates.
+- [x] Confirm whether June 2025 is static content or metadata.
+- [x] Report the date-source finding.
+- [x] Inventory the existing blog posts and assign dates across January through June 2026.
+- [x] Update each blog post’s visible publish date.
+- [x] Verify the blog listing and article date rendering.
+- [ ] Save a checkpoint for the completed blog-date update.
