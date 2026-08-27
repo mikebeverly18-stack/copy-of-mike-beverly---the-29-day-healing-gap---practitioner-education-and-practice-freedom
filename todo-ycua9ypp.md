@@ -33,7 +33,18 @@
 - [x] Add the article to the blog data with the July 24, 2026 publish date.
 - [x] Apply focused editorial refinements to the article and blog archive.
 - [x] Verify the blog listing, article page, and metadata.
-- [ ] Save a checkpoint for the completed burnout article.
+- [x] Save a checkpoint for the completed burnout article.
+- [x] Locate the About-page video placeholder.
+- [x] Replace only the placeholder with the supplied responsive LinkedIn embed.
+- [ ] Verify the embed on desktop and mobile.
+- [ ] Present the completed preview for user verification before publishing.
+- [ ] Save the verified About-page video replacement as a checkpoint.
+- [ ] Provide the user with the steps to publish the checkpoint to healinggap.com.
+
+## LinkedIn Embed Verification Notes
+
+- The supplied LinkedIn embed URL opens publicly and renders an interactive video player in its native embed view.
+- The About-page frame preserves the requested 504:880 aspect ratio and uses the full available content width.
 
 ## Verification Notes
 

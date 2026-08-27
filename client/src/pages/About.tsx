@@ -148,20 +148,19 @@ export default function About() {
                 Watch the full story in the video below.
               </p>
 
-              {/* Video placeholder */}
+              {/* Mike's Full Story video */}
               <div
-                className="rounded-xl flex items-center justify-center"
-                style={{ backgroundColor: "oklch(0.14 0.04 240)", border: "2px dashed oklch(0.55 0.12 185 / 40%)", minHeight: "280px" }}
+                className="rounded-xl overflow-hidden"
+                style={{ backgroundColor: "oklch(0.14 0.04 240)", border: "1px solid oklch(0.55 0.12 185 / 40%)" }}
               >
-                <div className="text-center p-8">
-                  <div
-                    className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4"
-                    style={{ backgroundColor: "oklch(0.55 0.12 185)" }}
-                  >
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
-                  </div>
-                  <p className="text-white/60 text-base">Mike's Full Story — Video</p>
-                  <p className="text-white/30 text-sm mt-1">Add your video URL to display here</p>
+                <p className="px-6 pt-5 pb-4 text-white/60 text-base">Mike's Full Story — Video</p>
+                <div className="w-full" style={{ aspectRatio: "504 / 880" }}>
+                  <iframe
+                    src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7450623056491868160?collapsed=1"
+                    title="Embedded post"
+                    className="h-full w-full border-0"
+                    allowFullScreen
+                  />
                 </div>
               </div>
 
